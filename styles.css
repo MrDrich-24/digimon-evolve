@@ -15,21 +15,21 @@
     --background-image-url-4096: url("/images/12-zuitt_4096.png");
     --background-image-url-8192: url("/images/13-zuitt_8192.png"); */
 
-    --background-image-url-02: url("/images/nyaromon.png");
-    --background-image-url-04: url("/images/kuramon.png");
-    --background-image-url-08: url("/images/gabumon.png");
-    --background-image-url-16: url("/images/flamedramon.png");
-    --background-image-url-32: url("/images/garudamon.png");
-    --background-image-url-64: url("/images/grandracmon.png");
+    --background-image-url-02: url("images/nyaromon.png");
+    --background-image-url-04: url("images/kuramon.png");
+    --background-image-url-08: url("images/gabumon.png");
+    --background-image-url-16: url("images/flamedramon.png");
+    --background-image-url-32: url("images/garudamon.png");
+    --background-image-url-64: url("images/grandracmon.png");
     
-    --background-image-url-128: url("/images/airdramon.png");
-    --background-image-url-256: url("/images/aquilamon.png");
-    --background-image-url-512: url("/images/superstarmon.png");
+    --background-image-url-128: url("images/airdramon.png");
+    --background-image-url-256: url("images/aquilamon.png");
+    --background-image-url-512: url("images/superstarmon.png");
 
-    --background-image-url-1024: url("/images/susanomon.png");
-    --background-image-url-2048: url("/images/valykyrimon.png");
-    --background-image-url-4096: url("/images/veemon.png");
-    --background-image-url-8192: url("/images/leopardmon.png");
+    --background-image-url-1024: url("images/susanomon.png");
+    --background-image-url-2048: url("images/valykyrimon.png");
+    --background-image-url-4096: url("images/veemon.png");
+    --background-image-url-8192: url("images/leopardmon.png");
     
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 hr {
-    max-width: 480px;
+    max-width: 100%;
 }
 
 #board {
@@ -192,3 +192,13 @@ hr {
     background-size: 100% 100%;
 }
 
+.footer {
+    background-color: #ff8906;
+    border-radius: 20px;
+    /* border: 2px solid #e53170;; */
+    height: auto;
+    max-width: 60rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+}
